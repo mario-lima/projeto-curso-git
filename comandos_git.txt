@@ -1,0 +1,63 @@
+Principais comandos GIT:
+
+git init = Iniciar um projeto
+
+git clone = Obter uma estrutura do repositorio remoto CLONAR
+
+git add. ou git add <<Nome do Arquivo>> = Adicionando arquivos para o git rastrear os arquivos.
+
+git commit -m 'mensagem de commit' = salvar todas as auterações e tornar rastreavel. O -m é para colocar a mensagem do commit.
+
+git push = Forma de publicar os commit.
+
+git pull = obter as auterações de um repositorio remoto. Atualizando seu repositorio local
+
+git merge = unir as branch que foram feitas auterações, verificar os conflitos
+
+git status = Verificar o estado atual do projeto
+
+git log = devolve um historio de alterações que o projeto teve.
+
+git branch <<Nome do Arquivo>> = cria uma nova ramificação.
+
+git checkout -b <<Nome da Branch>> = Cria a branch e já troca o origin para a branch atual
+
+git checkout <<Nome da Branch>> = troca de branch
+
+git branch -D <<Nome da Branch>> = apaga a branch que foi indicada
+
+<<
+
+git config --global user.name 'SEU NOME' -git config --global user.email 'SEU ENDEREÇO DE E-MAIL' = Comando utilizado para configurar usuario e e-mail na sua maquina
+
+git config --global user.Usuario = login
+git config -- global user.email Email@email.com.br = login
+
+>>
+
+git remote add origin https://github.com/mario-lima/projeto-curso-git.git
+
+git remove -v = mostra todos os repositorios listados
+
+git remote = ver repositorios remotos
+
+git rebase <<Nome do Arquivo>> = Junta arquivos de duas branch sem gerar um novo evento
+
+git log --stat = consulta os commits e suas estatisticas abreviadas
+
+git tag 'TEXTO' = Comando para marcar compromissos especificos
+
+git commit -a -m <Comentario> = Adiciona e faz commit de arquivo em apenas um comando
+
+git reset HEAD NOME_DO_ARQUIVO = Comando para retirar um arquivo após utilizar o git add
+
+git diff NOME_DO_ARQUIVO = Comando para ver as modificações feitas no arquivo
+
+git commit --amend = comando para editar a mensagem do ultimo commit
+
+git checkout --NOME_DO_ARQUIVO = comando para resetar as alterações de um arquivo
+
+git config --global user.name 'SEU NOME' -git config --global user.email 'SEU ENDEREÇO DE E-MAIL' = Comando utilizado para configurar usuario e e-mail na sua maquina
+
+
+
